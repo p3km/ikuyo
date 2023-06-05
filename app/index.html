@@ -530,6 +530,12 @@ from PIL import Image, ImageFont, ImageDraw, ImageMath,ImageChops, ImageOps
 from math import ceil,floor
 import asyncio
 
+	
+	
+async def Bruh(e=None):
+    await micropip.install("numpy")
+	
+	
 cache = {}
 def blobbytes(x):
     print("the x")
@@ -2172,6 +2178,9 @@ def UpdateCustomIcon(e=None):
     document.getElementById("customiconimg").src = url
     document.getElementById("customiconradio").value = url
     
+
+	
+	
 Update = create_proxy(UpdateImage)
 document.getElementById("generate").addEventListener("click",Update)
 
